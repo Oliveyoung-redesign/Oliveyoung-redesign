@@ -25,8 +25,16 @@ html {
     justify-content: center;
 }
 
-body {
-    width: 102rem;
+#purple {
+    color: #60079F;
+}
+
+#pink {
+    color: #ee7d6c;
+}
+
+#grayA {
+    color: #aaaaaa;
 }
 
 header nav.top {
@@ -103,10 +111,6 @@ header .bottom .event-list aside {
     margin-right: 1.5rem;
 }
 
-header .bottom .event-list #purple {
-    color: #60079F;
-}
-
 header .bottom nav.user-info {
     display: flex;
     flex-direction: row;
@@ -115,11 +119,41 @@ header .bottom nav.user-info a {
     margin-right: 1.5rem;
 }
 
-header .bottom nav.user-info #pink {
-    color: #ee7d6c;
-}
-
 header .bottom nav.user-info #my-store {
     margin-right: 1.5rem;
 }
 
+section.main-top {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.main-top nav.menu a {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+section.main-top section.rank {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 35.3rem;
+}
+
+section.main-top section.rank span {
+    width: 18.5rem;
+    text-align: end;
+}
+
+img.main-banner {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: 2rem
+}
