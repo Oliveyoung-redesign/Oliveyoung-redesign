@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: unset;
+    color: #333333;
+}
+
 @font-face {
     font-family: "NotoSans";
     font-weight: normal;
@@ -16,14 +21,15 @@ html {
     font-family: "NotoSans";
     font-size: 10px;
     letter-spacing: 0;
-}
-
-body {
     display: flex;
     justify-content: center;
 }
 
-header nav {
+body {
+    width: 102rem;
+}
+
+header nav.top {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -44,7 +50,6 @@ header hr {
 }
 
 header .middle {
-    width: 102rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -102,14 +107,19 @@ header .bottom .event-list #purple {
     color: #60079F;
 }
 
-header .bottom .user-info nav a {
+header .bottom nav.user-info {
+    display: flex;
+    flex-direction: row;
+}
+header .bottom nav.user-info a {
     margin-right: 1.5rem;
 }
 
-header .bottom .user-info nav #pink {
+header .bottom nav.user-info #pink {
     color: #ee7d6c;
 }
 
-header .bottom .user-info nav #my-store {
+header .bottom nav.user-info #my-store {
     margin-right: 1.5rem;
 }
+
