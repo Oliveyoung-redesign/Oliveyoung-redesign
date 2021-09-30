@@ -15,4 +15,101 @@ html {
     color: #333333;
     font-family: "NotoSans";
     font-size: 10px;
+    letter-spacing: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .top span {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+header hr {
+    height: 1.1rem;
+    width: 0;
+    border-right: 0;
+    margin-left: 1rem;
+}
+
+header .middle {
+    width: 102rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+header .logo {
+    width: 24.8rem;
+    height: 4.2rem;
+    filter: drop-shadow(0.4rem 0.4rem 0.4rem rgb(17, 8, 8, 0.25));
+}
+
+header .middle .search input{
+    width: 54rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border-color: #A6CD48;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+header section #OY-level {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 0;
+    color: #A6CD48;
+}
+
+header .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+header .bottom .event-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .bottom .event-list aside {
+    margin-right: 1.5rem;
+}
+
+header .bottom .event-list #purple {
+    color: #60079F;
+}
+
+header .bottom .user-info nav a {
+    margin-right: 1.5rem;
+}
+
+header .bottom .user-info nav #pink {
+    color: #ee7d6c;
+}
+
+header .bottom .user-info nav #my-store {
+    margin-right: 1.5rem;
 }
