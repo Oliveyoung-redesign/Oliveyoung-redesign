@@ -37,6 +37,23 @@ html {
     color: #aaaaaa;
 }
 
+#green {
+    color: #A6CD48;
+}
+
+#white {
+    color: white;
+}
+
+#gray7 {
+    color: #777777;
+}
+
+img.arrow {
+    width: 1.6rem;
+    height: 3.6rem;
+}
+
 header nav.top {
     display: flex;
     flex-direction: row;
@@ -78,19 +95,12 @@ header .middle .search input{
     border-color: #A6CD48;
 }
 
-header section {
+header section.user-greet {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     font-size: 1.6rem;
     line-height: 2rem;
-}
-
-header section #OY-level {
-    font-size: 1.6rem;
-    line-height: 2rem;
-    margin: 0;
-    color: #A6CD48;
 }
 
 header .bottom {
@@ -99,6 +109,8 @@ header .bottom {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 2rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
 }
 
 header .bottom .event-list {
@@ -138,6 +150,10 @@ section.main-top nav.menu a {
     margin-right: 2rem;
 }
 
+section.main-top nav.menu a:hover {
+    filter: drop-shadow(0.2rem 0.2rem 0.1rem rgb(17, 8, 8, 0.25));
+}
+
 section.main-top section.rank {
     display: flex;
     flex-direction: row;
@@ -151,9 +167,124 @@ section.main-top section.rank span {
     text-align: end;
 }
 
-img.main-banner {
+section.main-banner {
     position: absolute;
     width: 100%;
     left: 0;
     margin-top: 2rem
+}
+
+section.main-banner img.main-banner {
+    width: 100%;
+}
+
+section.main-banner img.main-banner {
+    position: absolute;
+}
+
+section.main-banner section.main-banner-text {
+    position: absolute;
+    top: 10rem;
+    left: 49.5rem;
+}
+
+section.main-banner p#purple {
+    font-size: 3.6rem;
+    line-height: 5.6rem;
+    font-weight: bold;
+}
+
+section.main-banner p#white {
+    margin-top: 2rem;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    font-weight: bold;
+}
+
+section.main-banner p#gray7 {
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+
+section.main-banner img.banner.arrow {
+    position: absolute;
+    top: 20.7rem;
+}
+
+section.main-banner img.arrow.left {
+    left: 40rem;
+}
+
+section.main-banner img.arrow.right {
+    right: 40rem;
+}
+
+section.main-banner section.category-list {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 99rem;
+    left: 46.5rem;
+    top: 53rem;
+}
+section.main-banner section.category-list div.category-slide {
+    display: none;
+}
+
+section.main-banner section.category-list div.category-slide.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.main-banner section.category-list div.category-slide span#white {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+section.main-banner img.categ.arrow {
+    position: absolute;
+    top: 57.5rem;
+}
+
+section.event-banner {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 45rem;
+    top: 72.9rem;
+}
+
+main {
+    position: absolute;
+    top: 114rem;
+}
+
+main section.product-recommend section.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main section.product-recommend section.header span#gray7 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-right: 13.5rem;
+}
+
+main section.product-recommend section.header a#gray7 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-left: 28.1rem;
+}
+
+main section.product-recommend section.header span#bold {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    font-weight: bold;
 }
