@@ -1,0 +1,66 @@
+html {
+  color: #333333;
+  font-family: "NotoSans";
+}
+body {
+  margin: 0 auto;
+  width: 1020px;
+  box-sizing: border-box;
+}
+
+nav:nth-child(1) {
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 33px;
+}
+nav:nth-child(1) button {
+  background-color: transparent;
+  border: none;
+}
+nav:nth-child(1) button:hover {
+  cursor: pointer;
+}
+nav:nth-child(1) span {
+  color: #AAAAAA;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.header_logo {
+  width: 230px;
+  height: 45px;
+}
+.search {
+  position: relative;
+}
+.search input {
+  width: 520px;
+  height: 40px;
+  border: 2px solid #A6CD48;
+  border-radius: 20px;
+}
+.search button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 10px;
+  z-index: 2;
+  line-height: 40px;
+  top: 8px;
+}
+.search button:hover {
+  cursor: pointer;
+}
+.main_header p {
+  margin: 0;
+}
+.main_header span {
+  color: #A6CD48;
+}
