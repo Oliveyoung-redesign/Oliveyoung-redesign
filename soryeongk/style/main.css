@@ -25,6 +25,10 @@ html {
     justify-content: center;
 }
 
+#red {
+    color: #e02020;
+}
+
 #purple {
     color: #60079F;
 }
@@ -269,6 +273,7 @@ main section.product-recommend section.header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 2.5rem;
 }
 
 main section.product-recommend section.header span#gray7 {
@@ -287,4 +292,88 @@ main section.product-recommend section.header span#bold {
     font-size: 2.4rem;
     line-height: 2.4rem;
     font-weight: bold;
+}
+
+section.product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+article.product {
+    display: flex;
+    align-items: center;
+}
+
+article.product img.product-img {
+    width: 21.5rem;
+    height: 21.5rem;
+    margin-right: 3rem;
+}
+
+article.product .product-desc {
+    width: 21.5rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article.product .product-desc .product-title,
+article.product .product-desc .product-price {
+    display: flex;
+    flex-direction: column;
+}
+
+article.product .product-desc .product-title h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #777777;
+}
+
+article.product .product-desc .product-title h3 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+article.product .product-desc .product-title span {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.product-desc .product-price .origin-price {
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+.product-desc .product-price .sale-price {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.product-desc .product-price .sale-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.product-desc .product-price .sale-icon span {
+    height: 1.8rem;
+    border-color: white;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    font-size: 1.2rem;
+    background-color: #A6CD48;
+    padding: 0 1rem;
+    margin-right: 0.3rem;
+}
+
+.product-desc .product-price .sale-icon span.icon-pink {
+    background-color: #ee7d6c;
+    margin: 0;
 }
