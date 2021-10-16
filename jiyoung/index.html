@@ -30,16 +30,16 @@
       </div>
       <p><span>Green</span>등급 현지영님,<br />반갑습니다. 올리브영입니다!</p>
     </div>
-    <nav>
-      <div>
-        <button>이번달 올영 Pick!</button>
+    <nav class="sub_nav">
+      <div class="sub_nav-left">
+        <button>이번달 올영 <span>Pick!<span></button>
         <button>일주일 특가</button>
-        <button>이번달 올영 Pick!</button>
+        <button>진행중인 이벤트</button>
       </div>
-      <div>
+      <div class="sub_nav-right">
         <button>마이페이지</button>
-        <button>쿠폰 3장</button>
-        <button>포인트 11000p</button>
+        <button>쿠폰 <span>3</span>장</button>
+        <button>포인트 <span>11000</span>P</button>
         <button>장바구니</button>
         <select>
           <option value="">관심 매장 소식</option>
@@ -53,8 +53,8 @@
         </select>
       </div>
     </nav>
-    <nav>
-      <div>
+    <nav class="main_nav">
+      <div class="main_nav-left">
         <button>오늘의 특가</button>
         <button>신상</button>
         <button>랭킹</button>
@@ -64,17 +64,129 @@
         <button>세일</button>
         <button>기프트카드</button>
       </div>
-      <div>
+      <div class="main_nav-right">
         <p>실시간 view 랭킹!</p>
         <p>가히 김고은 멀티밤</p>
       </div>
     </nav>
   </header>
   <main>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section class="banner">
+      <img src="images/banner.png" alt="">
+    </section>
+    <section class="category">
+      <div class="category_container">
+        <img class="category_img" src="images/prevIcon.png" alt="">
+        <p class="category_title"></p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/c1.png" alt="">
+        <p class="category_title">기초 화장품</p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/c2.png" alt="">
+        <p class="category_title">더모 코스메틱</p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/c3.png" alt="">
+        <p class="category_title">메이크업/네일</p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/c4.png" alt="">
+        <p class="category_title">바디케어</p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/c5.png" alt="">
+        <p class="category_title">헤어케어</p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/c6.png" alt="">
+        <p class="category_title">향수 디퓨저</p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/c7.png" alt="">
+        <p class="category_title">미용소품</p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/c8.png" alt="">
+        <p class="category_title">남성</p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/c9.png" alt="">
+        <p class="category_title">건강/위생용품</p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/c9.png" alt="">
+        <p class="category_title">건강식품</p>
+      </div>
+      <div class="category_container">
+        <img class="category_img" src="images/nextIcon.png" alt="">
+        <p class="category_title"></p>
+      </div>
+    </section>
+    <section class="event">
+      <img src="images/coupon.png" alt="">
+      <img src="images/enter.png" alt="">
+    </section>
+    <section class="recommend">
+      <div class="recommend_title">
+        <span>다른 상품도 추천해 드릴게요!</span>
+        <span>현지영님만을 위한 추천 상품이에요! </span>
+        <span>더보기></span>
+      </div>
+      <div class="recommend_list">
+        <div class="list_item">
+          <img class="list_item-img" src="images/recommendItem1.png" alt="">
+          <div class="list_item-desc">
+            <p>바이오힐보</p>
+            <p>판테놀 시카 크림 더블 기획</p>
+            <p><span>오늘드림</span><span>세일</span></p>
+            <p>0000명이 보고 있어요!</p>
+            <p>38000원</p>
+            <p>3500원</p>
+          </div>
+        </div>
+        <div class="list_item">
+          <img class="list_item-img" src="images/recommendItem2.png" alt="">
+          <div class="list_item-desc">
+            <p>바이오힐보</p>
+            <p>판테놀 시카 크림 더블 기획</p>
+            <p><span>오늘드림</span><span>세일</span></p>
+            <p>0000명이 보고 있어요!</p>
+            <p>38000원</p>
+            <p>3500원</p>
+          </div>
+        </div>
+        <div class="list_item">
+          <img class="list_item-img" src="images/recommendItem2.png" alt="">
+          <div class="list_item-desc">
+            <p>바이오힐보</p>
+            <p>판테놀 시카 크림 더블 기획</p>
+            <p><span>오늘드림</span><span>세일</span></p>
+            <p>0000명이 보고 있어요!</p>
+            <p>38000원</p>
+            <p>3500원</p>
+          </div>
+        </div>
+        <div class="list_item">
+          <img class="list_item-img" src="images/recommendItem1.png" alt="">
+          <div class="list_item-desc">
+            <p>브링그린</p>
+            <p>사철쑥 카밍토너 & 수분크림</p>
+            <p><span>오늘드림</span><span>세일</span></p>
+            <p>0000명이 보고 있어요!</p>
+            <p>38000원</p>
+            <p>3500원</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="only">
+      <div class="only_event">
+        <img src="images/sample.png" alt="">
+        <img src="images/best.png" alt="">
+      </div>
+    </section>
   </main>
   <footer></footer>
 </body>
