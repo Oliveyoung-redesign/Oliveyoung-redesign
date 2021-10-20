@@ -377,3 +377,9 @@ article.product .product-desc .product-title span {
     background-color: #ee7d6c;
     margin: 0;
 }
+
+.exclusive-event {
+    background-image: url(../asset/eventBanner/exclusiveEventBanner.png);
+    width: 100%;
+    left: 0;
+}
