@@ -21,8 +21,12 @@ html {
     font-family: "NotoSans";
     font-size: 10px;
     letter-spacing: 0;
+}
+
+body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #red {
@@ -56,6 +60,10 @@ html {
 img.arrow {
     width: 1.6rem;
     height: 3.6rem;
+}
+
+header {
+    width: 1024px;
 }
 
 header nav.top {
@@ -147,11 +155,15 @@ section.main-top {
     align-items: center;
 }
 
-section.main-top nav.menu a {
+section.main-top nav.menu {
     font-size: 2rem;
     line-height: 2rem;
     font-weight: bold;
-    margin-right: 2rem;
+    text-align: center;
+}
+
+section.main-top nav.menu a + a {
+    margin-left: 0.5rem;
 }
 
 section.main-top nav.menu a:hover {
@@ -172,18 +184,11 @@ section.main-top section.rank span {
 }
 
 section.main-banner {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    margin-top: 2rem
-}
-
-section.main-banner img.main-banner {
-    width: 100%;
-}
-
-section.main-banner img.main-banner {
-    position: absolute;
+    background-image: url(../asset/eventBanner/mainBanner.svg);
+    position: relative;
+    width: 100vw;
+    margin-top: 2rem;
+    height: 77.9rem;
 }
 
 section.main-banner section.main-banner-text {
@@ -261,34 +266,34 @@ section.event-banner {
     flex-direction: row;
     justify-content: space-between;
     left: 45rem;
-    top: 72.9rem;
+    bottom: -5rem;
 }
 
-main {
-    position: absolute;
-    top: 114rem;
+main.product-recommend {
+    position: relative;
+    margin-top: 15rem;
 }
 
-main section.product-recommend section.header {
+main.product-recommend section.header {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 2.5rem;
 }
 
-main section.product-recommend section.header span#gray7 {
+main.product-recommend section.header span#gray7 {
     font-size: 1.5rem;
     line-height: 1.8rem;
     margin-right: 13.5rem;
 }
 
-main section.product-recommend section.header a#gray7 {
+main.product-recommend section.header a#gray7 {
     font-size: 1.5rem;
     line-height: 1.8rem;
     margin-left: 28.1rem;
 }
 
-main section.product-recommend section.header span#bold {
+main.product-recommend section.header span#bold {
     font-size: 2.4rem;
     line-height: 2.4rem;
     font-weight: bold;
@@ -378,8 +383,104 @@ article.product .product-desc .product-title span {
     margin: 0;
 }
 
-.exclusive-event {
+section.exclusive-event {
+    position: relative;
     background-image: url(../asset/eventBanner/exclusiveEventBanner.png);
+    width: 100vw;
+    height: 60rem;
+    margin-top: 21.4rem;
+    padding: 0 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exclusive-event section.banner-wrapper {
+    position: absolute;
+    top: -11.4rem;
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.banner-wrapper article.event {
+    width: 50rem;
+    height: 22.7rem;
+    padding: 6.2rem 5.7rem;
+}
+
+section.banner-wrapper article.event.banner1 {
+    background-image: url(../asset/eventBanner/2-1.png);
+}
+
+section.banner-wrapper article.event.banner2 {
+    background-image: url(../asset/eventBanner/2-2.png);
+}
+
+section.banner-wrapper article.event p.event-title {
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1.35;
+    margin-bottom: 2.7rem;
+}
+
+section.banner-wrapper article.event span.event-tag {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.35;
+}
+
+section.banner-slider-wrapper {
+    position: absolute;
+    top: 16.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97rem;
+}
+
+section.banner-slider-wrapper p.slider-title {
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.12rem;
+    margin-bottom: 3rem;
+}
+
+section.banner-slider-wrapper section.banner-slider {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    left: 0;
+}
+
+section.banner-slider article.banner-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.banner-slider article.banner-slide img {
+    width: 31rem;
+    height: 24rem;
+    
+}
+
+section.banner-slider article.banner-slide p.slide-content {
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-top: 1.1rem;
+}
+
+section.banner-slider img.arrow {
+    position: absolute;
+    top: 16.5rem;
+}
+
+section.banner-slider img.arrow.left {
+    left: -4.5rem;
+}
+
+section.banner-slider img.arrow.right {
+    right: -4.5rem;
 }
