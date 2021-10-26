@@ -1,0 +1,15 @@
+/* 공통으로 쓰는 칭구들입니당 */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    max-width: 1728px;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}

@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Olive Young by JH</title>
+    <link rel="stylesheet", href="./styles/common.css">
+    <link rel="stylesheet", href="./styles/main.css">
+    <link rel="stylesheet", href="./styles/menu.css">
 </head>
 <body>
     <header class="header">
-        <div class="header_menu">
-            <div class="header_logout">로그아웃</div>
-            <div class="header_order">주문배송</div>
-            <div class="header_customer">고객센터</div>
-            <div class="header_store">매장안내</div>
-            <div class="header_global">Global</div>
+        <div class="top_menu">
+            <ul class="menu_list">
+                <li class="logout">로그아웃</li>
+                <li class="order">주문배송</li>
+                <li class="customer">고객센터</li>
+                <li class="store">매장안내</li>
+                <li class="global">Global</li>
+            </ul>
         </div>
         <div class="header_inner">
-            <a class="header_logo">
-                <img src="./assets/images">OliveYoung
+            <a class="logo">
+                <img src="./assets/images/h1_logo 2.png">
             </a>
-            <div class="header_search_bar">
-                <div class="header_search_text"></div>
-                <div class="header_search_icon"></div>
+            <div class="search_bar">
+                <div class="search_text"></div>
+                <div class="earch_icon"></div>
             </div>
-            <div class="header_customer_info"></div>
+            <div class="customer_info"></div>
         </div>
-        <div class="header_sub">
-            <ul class="header_sub_left">
+    </header>
+    <nav class="nav">
+        <div class="nav_sub">
+            <ul class="sub_left">
                 <li>오늘의 특가</li>
                 <li>신상</li>
                 <li>랭킹</li>
@@ -41,55 +48,335 @@
                 <div class="header_rank_item">가히 김고은 멀티밤</div>
             </div>
         </div>
-    </header>
-    <nav class="nav">
-        <div class="nav_list">
-            <div class="nav_item">
-                <a class="nav_img">
-                기초화장품
-            </div>
-            <div class="nav_item">
-                <a class="nav_img">
-                더모 코스메틱
-            </div>
-            <div class="nav_item">
-                <a class="nav_img">
-                메이크업/네일
-            </div>
-            <div class="nav_item">
-                <a class="nav_img">
-                바디케어
-            </div>
-            <div class="nav_item">
-                <a class="nav_img">
-                헤어케어
-            </div>
-            <div class="nav_item">
-                <a class="nav_img">
-                향수/디퓨저
-            </div>
-            <div class="nav_item">
-                <a class="nav_img">
-                미용소품
-            </div>
-            <div class="nav_item">
-                <a class="nav_img">
-                기초화장품
-            </div>
-            <div class="nav_item">
-                <a class="nav_img">
-                기초화장품
-            </div>
-        </div>
-        <div class="nav_ranking">
-
-        </div>
     </nav>
     <main class="main">
-
+        <div class="main_full_banner">
+            <div class="category">
+                <button class="category_left"></button>
+                <div class="category_list">
+                    <div class="nav_item">
+                        <a class="nav_img">
+                            <img src="./assets/images/cate1.png">
+                        기초 화장품
+                        </a>
+                    </div>
+                    <div class="nav_item">
+                        <a class="nav_img">
+                            <img src="./assets/images/cate2.png">
+                        더모 코스메틱
+                        </a>
+                    </div>
+                    <div class="nav_item">
+                        <a class="nav_img">
+                            <img src="./assets/images/cate3.png">
+                        메이크업/네일
+                        </a>    
+                    </div>
+                    <div class="nav_item">
+                        <a class="nav_img">
+                            <img src="./assets/images/cate4.png">
+                        바디케어
+                        </a>
+                    </div>
+                    <div class="nav_item">
+                        <a class="nav_img">
+                            <img src="./assets/images/cate5.png">
+                        헤어케어
+                        </a>
+                    </div>
+                    <div class="nav_item">
+                        <a class="nav_img">
+                            <img src="./assets/images/cate6.png">
+                        향수/디퓨저
+                        </a>
+                    </div>
+                    <div class="nav_item">
+                        <a class="nav_img">
+                            <img src="./assets/images/cate7.png">
+                        미용소품
+                        </a>
+                    </div>
+                    <div class="nav_item">
+                        <a class="nav_img">
+                            <img src="./assets/images/cate8.png">
+                        남성
+                        </a>
+                    </div>
+                    <div class="nav_item">
+                        <a class="nav_img">
+                            <img src="./assets/images/cate9.png">
+                        건강/위생용품
+                        </a>
+                    </div>
+                    <div class="nav_item">
+                        <a class="nav_img">
+                            <img src="./assets/images/cate10.png">
+                        건강식품
+                        </a>
+                    </div>
+                </div>
+                <button class="category_right"></button>
+            </div>
+            <div class="top_banner">
+                <a class="coupon_banner">
+                    <img src="./assets/images/top_banner_1.png">
+                </a>
+                <a class="attendence_banner">
+                    <img src="./assets/images/top_banner_2.png">
+                </a>
+            </div>
+        </div>
+        <div class="main_product">
+            <div class="product_title">
+                <span class="refresh_icon">
+                    <img src="./assets/icons/btn_refresh.png">
+                    다른 상품도 추천해드릴게요!
+                </span>
+                <h2>김소령님만을 위한 추천 상품이에요!</h2>
+                <span class="more_icon">
+                    더보기
+                    <img src="./assets/icons/btn_more.png">
+                </span>
+            </div>
+            <div class="product_list">
+                <div class="product_contents">
+                    <div class="product_image">
+                        <img src="./assets/images/main1.png">
+                    </div>
+                    <div class="product_name">
+                        <h2>바이오힐보</h2>
+                        <h3>판테놀 시카 크림 더블 기획</h3>
+                    </div>
+                    <div class="product_tag">
+                        <span class="today_dream">오늘드림</span>
+                        <span class="sale">세일</span>
+                    </div>
+                    <div class="product_info">
+                        <span class="product_view">0,000명이 보고 있어요!</span>
+                        <span class="product_pre_price">36,000원</span>
+                        <span class="product_price">3,500원</span>
+                    </div>
+                </div>
+                <div class="product_contents">
+                    <div class="product_image">
+                        <img src="./assets/images/main2.png">
+                    </div>
+                    <div class="product_name">
+                        <h2>브링그린</h2>
+                        <h3>사철쑥 카밍토너 & 수분크림</h3>
+                    </div>
+                    <div class="product_tag">
+                        <span class="today_dream">오늘드림</span>
+                        <span class="sale">세일</span>
+                    </div>
+                    <div class="product_info">
+                        <span class="product_view">0,000명이 보고 있어요!</span>
+                        <span class="product_pre_price">36,000원</span>
+                        <span class="product_price">3,500원</span>
+                    </div>
+                </div>
+                <div class="product_contents">
+                    <div class="product_image">
+                        <img src="./assets/images/main3.png">
+                    </div>
+                    <div class="product_name">
+                        <h2>유세린</h2>
+                        <h3>하이알루론 나이트 크림 500ml</h3>
+                    </div>
+                    <div class="product_tag">
+                        <span class="today_dream">오늘드림</span>
+                        <span class="sale">세일</span>
+                    </div>
+                    <div class="product_info">
+                        <span class="product_view">0,000명이 보고 있어요!</span>
+                        <span class="product_pre_price">36,000원</span>
+                        <span class="product_price">3,500원</span>
+                    </div>
+                </div>
+                <div class="product_contents">
+                    <div class="product_image">
+                        <img src="./assets/images/main4.png">
+                    </div>
+                    <div class="product_name">
+                        <h2>브링그린</h2>
+                        <h3>사철쑥대머리아저씨는코가손</h3>
+                    </div>
+                    <div class="product_tag">
+                        <span class="today_dream">오늘드림</span>
+                        <span class="sale">세일</span>
+                    </div>
+                    <div class="product_info">
+                        <span class="product_view">0,000명이 보고 있어요!</span>
+                        <span class="product_pre_price">36,000원</span>
+                        <span class="product_price">3,500원</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second_banner">
+            <a>
+                <img src="./assets/images/middle_banner_1.png">
+            </a>
+            <a>
+                <img src="./assets/images/middle_banner_2.png">
+            </a>
+        </div>
+        <div class="event_list">
+            <h2>오직 올리브영에서만!</h2>
+            <div class="event_content">
+                <a>
+                    <img src="assets/images/bottom_banner_1.png">
+                    오뚜기 스프에 슾며들기
+                </a>
+                <a>
+                    <img src="assets/images/bottom_banner_2.png">
+                    세븐틴 추천템 보러가기
+                </a>
+                <a>
+                    <img src="assets/images/bottom_banner_3.png">
+                    '진정'되는 행사 보러가기
+                </a>
+            </div>
+            <span class="slide_pick">
+                <img src="./assets/icons/slide_cong.png">
+            </span>
+        </div>
+        <div class="brand_banner">
+            <button class="brand_left"></button>
+            <div class="brand_list">
+                <div class="brand_contents">
+                    <p><img src="./assets/images/brand_banner_1.png"></p>
+                    <h2>다이어트 집착 연구소 세리박스</h2>
+                    <h3>'건강한 아름다움'의 입소문이 만들어낸 특별한 시작</h3>
+                </div>
+                <div class="brand_contents">
+                    <p><img src="./assets/images/brand_banner_2.png"></p>
+                    <h2>저자극 스킨케어 코스알엑스</h2>
+                    <h3>좋은 성분은 최대로, 피부에 자극을 줄 수 있는 성분은 최소로</h3>
+                </div>
+                <div class="brand_contents">
+                    <p><img src="./assets/images/brand_banner_3.png"></p>
+                    <h2>고기능 클린 자연주의 구달</h2>
+                    <h3>한국의 재질 원물을 신선하게 Fresh Catch! 순하지만 피부의 변화가 느껴지는 고기능 클린 스킨케어 솔루션을 지향합니다.</h3>
+                </div>
+            </div>
+            <button class="brand_right"></button>
+        </div>
+        <div class="view_ranking">
+            <div class="ranking_title">
+                <span class="refresh_icon">
+                    <img src="./assets/icons/btn_refresh.png">
+                    다른 상품도 추천해드릴게요!
+                </span>
+                <h2>실시간 VIEW 랭킹</h2>
+                <span class="more_icon">
+                    더보기
+                    <img src="./assets/icons/btn_more.png">
+                </span>
+            </div>
+            <div class="rank_contents">
+                <div class="rank_product">
+                    <a>
+                        <img src="./assets/images/ranking.png">
+                    </a>
+                    <h2>웨이크메이크</h2>
+                    <h3>네일건 2021 F/W 시즌 네일</h3>
+                    <div class="product_tag">
+                        <span class="today_dream">오늘드림</span>
+                        <span class="sale">세일</span>
+                    </div>
+                    <div class="product_info">
+                        <span class="product_view">0,000명이 보고 있어요!</span>
+                        <span class="product_pre_price">36,000원</span>
+                        <span class="product_price">3,500원</span>
+                    </div>
+                </div>
+                <ul>
+                    <li>1 코스알엑스 프로폴리스 앰플</li>
+                    <li>2 가히 김고은 멀티밤</li>
+                    <li>3 웨이크메이크 네일건 2021 F/W 시즌 네일</li>
+                    <li>4 유세린 하이알루론 나이트 크림 50ml</li>
+                    <li>5 브링그린 사철쑥 카밍토너 & 수분크림 세트</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_bottom">
+            <div class="announcement">
+                <ul>
+                    <li>
+                        <span class="event_tag">이벤트</span>
+                        <span>리뷰를 리뷰해 잉글롯 당첨자 발표</span>
+                    </li>
+                    <li>
+                        <span class="event_tag">이벤트</span>
+                        <span>오늘드립 룰렛 이벤트 당첨자 경품 발송 안내</span>
+                    </li>
+                    <li>
+                        <span class="gen_tag">일반</span>
+                        <span>올리브영 전주인후점 리뉴얼로 인한 영업 중단</span>
+                    </li>
+                    <li>
+                        <span class="gen_tag">일반</span>
+                        <span>올리브영 전주인후점 리뉴얼로 인한 영업 중단</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="cs_center">
+                <h2>고객센터</h2>
+                <ul>
+                    <li>
+                        <span>온라인몰 고객센터</span>
+                        <span>1522-0882</span>
+                    </li>
+                    <li>
+                        <span>매장 고객센터</span>
+                        <span>1577-4887</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </main>
+    
     <footer class="footer">
-
+        <div class="footer_contents">
+            <ul class="contents_list">
+                <li>
+                    <p>
+                        <img src="./assets/images/h1_logo 2.png">
+                    </p>
+                </li>
+                <li>
+                    <h2>씨제이올리브영 주식회사</h2>
+                    <p>대표이사 : 구창근 | 사업자등록번호 : 809-81-01574</p>
+                    <p>주소 : (04323) 서울특별시 용산구 한강대로 372, 24층 (동자동, KDB 타워)</p>
+                    <p>호스팅사업자 : CJ 올리브네트웍스</p>
+                    <p>통신판매업신고번호 : 2019-서울용산-1428</p>
+                    <p>이메일 : oliveweb@cj.net</p>
+                    <p>사업자 정보확인</p>
+                </li>
+                <li>
+                    <ul>
+                        <li>
+                            <a>이용약관법적고지</a>
+                            <a>개인정보처리방침</a>
+                            <a>청소년보호방침</a>
+                            <a>영상정보처리기기운영/관리방침</a>
+                            <a>이메일무단수집거부</a>
+                        </li>
+                    </ul>
+                    <h2>LG U+ 매매보호(에스크로)서비스</h2>
+                    <p>
+                        "고객님은 안전거래를 위해 모든 거래 결제 시"
+                        <br>
+                        "저희 쇼핑몰에서 가입한 LG U+ 전자"
+                        <br>
+                        "결제의 매매보호(에스크로) 서비스를"
+                        <br>
+                        "이용하실 수 있습니다."
+                    </p>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
