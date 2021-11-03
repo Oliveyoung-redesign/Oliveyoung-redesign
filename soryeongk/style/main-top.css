@@ -1,0 +1,121 @@
+section.main-top {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.main-top nav.menu {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.main-top nav.menu a + a {
+    margin-left: 0.5rem;
+}
+
+section.main-top nav.menu a:hover {
+    filter: drop-shadow(0.2rem 0.2rem 0.1rem rgb(17, 8, 8, 0.25));
+}
+
+section.main-top section.rank {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 35.3rem;
+}
+
+section.main-top section.rank span {
+    width: 18.5rem;
+    text-align: end;
+}
+
+section.main-banner {
+    background-image: url(../asset/eventBanner/mainBanner.svg);
+    position: relative;
+    width: 100vw;
+    margin-top: 2rem;
+    height: 77.9rem;
+}
+
+section.main-banner section.main-banner-text {
+    position: absolute;
+    top: 10rem;
+    left: 49.5rem;
+}
+
+section.main-banner p#purple {
+    font-size: 3.6rem;
+    line-height: 5.6rem;
+    font-weight: bold;
+}
+
+section.main-banner p#white {
+    margin-top: 2rem;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    font-weight: bold;
+}
+
+section.main-banner p#gray7 {
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+
+section.main-banner img.banner.arrow {
+    position: absolute;
+    top: 20.7rem;
+}
+
+section.main-banner img.arrow.left {
+    left: 40rem;
+}
+
+section.main-banner img.arrow.right {
+    right: 40rem;
+}
+
+section.main-banner section.category-list {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 99rem;
+    left: 46.5rem;
+    top: 53rem;
+}
+section.main-banner section.category-list div.category-slide {
+    display: none;
+}
+
+section.main-banner section.category-list div.category-slide.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.main-banner section.category-list div.category-slide span#white {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+section.main-banner img.categ.arrow {
+    position: absolute;
+    top: 57.5rem;
+}
+
+section.event-banner {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 45rem;
+    bottom: -5rem;
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: unset;
+    color: #333333;
+}
+
+@font-face {
+    font-family: "NotoSans";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../font/NotoSansKR-Regular.otf) format("truetype");
+}
+
+html {
+    color: #333333;
+    font-family: "NotoSans";
+    font-size: 10px;
+    letter-spacing: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    outline: none; 
+    border: none;
+    background-color: transparent; 
+}
+
+#red {
+    color: #e02020;
+}
+
+#purple {
+    color: #60079F;
+}
+
+#pink {
+    color: #ee7d6c;
+}
+
+#grayA {
+    color: #aaaaaa;
+}
+
+#green {
+    color: #A6CD48;
+}
+
+#white {
+    color: white;
+}
+
+#gray7 {
+    color: #777777;
+}
+
+img.arrow {
+    width: 1.6rem;
+    height: 3.6rem;
+}
