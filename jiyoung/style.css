@@ -4,6 +4,7 @@ html {
 }
 body {
   box-sizing: border-box;
+  margin: 0
 }
 p {
   margin: 0
@@ -125,22 +126,50 @@ nav:nth-child(1) span {
 
 /* banner */
 .banner {
+  width: 100%;
   height: 450px;
   position: relative;
-  top: 0;
-  left: 0;
+}
+.banner_title {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+.banner_title p:first-child{
+  font-size: 36px;
+  color: #60079F;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.banner_title p:nth-of-type(2){
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+}
+.banner_title p:nth-of-type(3){
+  font-size: 18px;
+  color: #777777;
+  font-weight: bold;
 }
 
 /* category */
 .category {
-  width: 1920px;
+  width: 100%;
   height: 330px;
   background-color: #19D3C5;
   display: flex;
   justify-content: row;
   align-content: center;
+  margin-bottom: 150px;
 }
-
+.category_list {
+  width: 1020px;
+  height: 120px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .category-container {
   height: 120px;
   display: flex;
@@ -161,7 +190,12 @@ nav:nth-child(1) span {
 
 /*event*/
 .event {
-  /* position: absolute; */
+  display: flex;
+  position: absolute;
+  top: 950px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
 }
 
 /* recommend */
@@ -182,6 +216,7 @@ nav:nth-child(1) span {
   font-size: 25px;
   font-weight: bold;
   color: #333333;
+  margin-right: 40px;
 }
 .recommend_list {
   display: grid;
@@ -242,10 +277,6 @@ nav:nth-child(1) span {
 .only {
   position: relative;
 }
-.only_background {
-
-}
-
 .only_event {
   display: flex;
   position: absolute;
@@ -259,26 +290,57 @@ nav:nth-child(1) span {
   left: 50%;
   transform: translate(-50%, 0);
 }
+.only_ment p{
+  font-size: 24px;
+  font-weight: bold;
+}
+.only_ment span{
+  color:#EE7D6C;
+}
 .only_slider {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: absolute;
+  width:1020px;
   top: 220px;
   left: 50%;
   transform: translate(-50%, 0);
 }
-.only_slider div{
-  margin: auto 10px;
+.only_slider-desc {
+  width: 310px;
+  height: 24px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.only_slider-desc img{
+  width: 10px;
+  height: 20px;
+}
+.only_slider p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 2px;
+}
+.only_slider-more {
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 /*brand*/
 .brand {
   display: flex;
   width: 1020px;
+  height: 440px;
   margin: 100px auto 100px;
+  justify-content: space-between;
+  align-items: center;
 }
 .brand_card {
   position:relative;
-  margin-right: 20px;
 }
 .brand_card-desc {
   position: absolute;
