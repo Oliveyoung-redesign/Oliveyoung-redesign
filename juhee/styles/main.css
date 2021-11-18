@@ -1,11 +1,61 @@
-.main{
-    width: 100%;
-    height: 779px;
-    background-image: url(/HTML-CSS/juhee/assets/images/header_bg.png);
+.main {
+  width: 100%;
+  height: 100%;
 }
 
-.second_banner{
-    width: 100%;
-    height: 600px;
-    background-image: url(/HTML-CSS/juhee/assets/images/main_bg.png);
+.main_full_banner {
+  width: 1920px;
+  height: 829px;
+  background-image: url(/HTML-CSS/juhee/assets/images/header_bg.png);
+  position: relative;
+}
+
+.main_left {
+  position: absolute;
+  left: 495px;
+  top: 100px;
+  bottom: 139px;
+}
+
+.left_text1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #60079f;
+}
+
+.left_text2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+}
+
+.left_text3 {
+  font-size: 18px;
+  color: #777777;
+}
+
+.category_list {
+  position: absolute;
+  bottom: 200px;
+  width: 1020px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second_banner {
+  width: 100%;
+  height: 600px;
+  background-image: url(/HTML-CSS/juhee/assets/images/main_bg.png);
+}
+
+.top_banner {
+  position: absolute;
+  bottom: -65px;
 }

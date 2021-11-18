@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olive Young by JH</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet", href="./styles/common.css">
     <link rel="stylesheet", href="./styles/main.css">
-    <link rel="stylesheet", href="./styles/menu.css">
+    <link rel="stylesheet", href="./styles/header.css">
 </head>
 <body>
     <header class="header">
@@ -21,17 +22,37 @@
             </ul>
         </div>
         <div class="header_inner">
-            <a class="logo">
-                <img src="./assets/images/h1_logo 2.png">
-            </a>
-            <div class="search_bar">
-                <div class="search_text"></div>
-                <div class="earch_icon"></div>
+            <div class="header_first">
+                <a class="logo">
+                    <img src="./assets/images/h1_logo 2.png">
+                </a>
+                <div class="search_bar">
+                    <div class="search_text"></div>
+                    <a class="search_btn">
+                        <img src="./assets/icons/btn_search.png">
+                    </a>
+                    <!-- <span class="material-icons-outlined">
+                        search
+                    </span> -->
+                </div>
+                <div class="customer_info"><span class="member_level">Black</span>등급 황주희님, <br> 반갑습니다 올리브영입니다!</div>
             </div>
-            <div class="customer_info"></div>
+            <div class="header_second">
+                <ul class="second_left">
+                    <li>이번달 올영 Pick!</li>
+                    <li>일주일 특가</li>
+                    <li>진행중인 이벤트</li>
+                </ul>
+                <ul class="second_right">
+                    <li>마이페이지</li>
+                    <li>쿠폰 <span class="mypage_variable">3</span>장</li>
+                    <li>포인트 <span class="mypage_variable">11,000</span>P</li>
+                    <li>장바구니</li>
+                    <li>관심 매장 소식</li>
+                    <li>최근 본 상품</li>
+                </ul>
+            </div>
         </div>
-    </header>
-    <nav class="nav">
         <div class="nav_sub">
             <ul class="sub_left">
                 <li>오늘의 특가</li>
@@ -43,89 +64,86 @@
                 <li>세일</li>
                 <li>기프트카드</li>
             </ul>
-            <div class="header_sub_right">
-                <div class="header_rank">실시간 view 랭킹</div>
-                <div class="header_rank_item">가히 김고은 멀티밤</div>
-            </div>
+            <ul class="sub_right">
+                <li class="header_rank">실시간 view 랭킹</li>
+                <li class="header_rank_item">가히 김고은 멀티밤</li>
+            </ul>
         </div>
-    </nav>
+    </header>
     <main class="main">
         <div class="main_full_banner">
-            <div class="category">
-                <button class="category_left"></button>
-                <div class="category_list">
-                    <div class="nav_item">
-                        <a class="nav_img">
-                            <img src="./assets/images/cate1.png">
-                        기초 화장품
-                        </a>
-                    </div>
-                    <div class="nav_item">
-                        <a class="nav_img">
-                            <img src="./assets/images/cate2.png">
-                        더모 코스메틱
-                        </a>
-                    </div>
-                    <div class="nav_item">
-                        <a class="nav_img">
-                            <img src="./assets/images/cate3.png">
-                        메이크업/네일
-                        </a>    
-                    </div>
-                    <div class="nav_item">
-                        <a class="nav_img">
-                            <img src="./assets/images/cate4.png">
-                        바디케어
-                        </a>
-                    </div>
-                    <div class="nav_item">
-                        <a class="nav_img">
-                            <img src="./assets/images/cate5.png">
-                        헤어케어
-                        </a>
-                    </div>
-                    <div class="nav_item">
-                        <a class="nav_img">
-                            <img src="./assets/images/cate6.png">
-                        향수/디퓨저
-                        </a>
-                    </div>
-                    <div class="nav_item">
-                        <a class="nav_img">
-                            <img src="./assets/images/cate7.png">
-                        미용소품
-                        </a>
-                    </div>
-                    <div class="nav_item">
-                        <a class="nav_img">
-                            <img src="./assets/images/cate8.png">
-                        남성
-                        </a>
-                    </div>
-                    <div class="nav_item">
-                        <a class="nav_img">
-                            <img src="./assets/images/cate9.png">
-                        건강/위생용품
-                        </a>
-                    </div>
-                    <div class="nav_item">
-                        <a class="nav_img">
-                            <img src="./assets/images/cate10.png">
-                        건강식품
-                        </a>
-                    </div>
-                </div>
-                <button class="category_right"></button>
+            <div class="main_left">
+                <div class="left_text1">9월 최대 70% 올영 세일!</div>
+                <div class="left_text2">오늘 단 하루!<br>추가할인</div>
+                <div class="left_text3">포텐터지는 오늘의 특가 보러가기!</div>
             </div>
-            <div class="top_banner">
-                <a class="coupon_banner">
-                    <img src="./assets/images/top_banner_1.png">
-                </a>
-                <a class="attendence_banner">
-                    <img src="./assets/images/top_banner_2.png">
-                </a>
+            <div class="main_right"></div>
+        </div>
+            
+        <div class="category">
+            <div class="category_list">
+                <div class="nav_item">
+                    <a class="nav_img">
+                        <img src="./assets/images/cate1.png">
+                    </a>기초 화장품
+                </div>
+                <div class="nav_item">
+                    <a class="nav_img">
+                        <img src="./assets/images/cate2.png">
+                    </a>더모 코스메틱
+                </div>
+                <div class="nav_item">
+                    <a class="nav_img">
+                        <img src="./assets/images/cate3.png">
+                    </a>메이크업/네일
+                </div>
+                <div class="nav_item">
+                    <a class="nav_img">
+                        <img src="./assets/images/cate4.png">
+                    </a>바디케어
+                </div>
+                <div class="nav_item">
+                    <a class="nav_img">
+                        <img src="./assets/images/cate5.png">
+                    </a>헤어케어
+                </div>
+                <div class="nav_item">
+                    <a class="nav_img">
+                        <img src="./assets/images/cate6.png">
+                    </a>향수/디퓨저
+                </div>
+                <div class="nav_item">
+                    <a class="nav_img">
+                        <img src="./assets/images/cate7.png">
+                    </a>미용소품
+                </div>
+                <div class="nav_item">
+                    <a class="nav_img">
+                        <img src="./assets/images/cate8.png">
+                    </a>남성
+                </div>
+                <div class="nav_item">
+                    <a class="nav_img">
+                        <img src="./assets/images/cate9.png">
+                    </a>건강/위생용품
+                </div>
+                <div class="nav_item">
+                    <a class="nav_img">
+                        <img src="./assets/images/cate10.png">
+                    </a>건강식품
+                </div>
             </div>
         </div>
+        
+        <div class="top_banner">
+            <a class="coupon_banner">
+                <img src="./assets/images/top_banner_1.png">
+            </a>
+            <a class="attendence_banner">
+                <img src="./assets/images/top_banner_2.png">
+            </a>
+        </div>
+        
         <div class="main_product">
             <div class="product_title">
                 <span class="refresh_icon">
@@ -242,7 +260,6 @@
             </span>
         </div>
         <div class="brand_banner">
-            <button class="brand_left"></button>
             <div class="brand_list">
                 <div class="brand_contents">
                     <p><img src="./assets/images/brand_banner_1.png"></p>
@@ -260,7 +277,6 @@
                     <h3>한국의 재질 원물을 신선하게 Fresh Catch! 순하지만 피부의 변화가 느껴지는 고기능 클린 스킨케어 솔루션을 지향합니다.</h3>
                 </div>
             </div>
-            <button class="brand_right"></button>
         </div>
         <div class="view_ranking">
             <div class="ranking_title">
@@ -336,7 +352,7 @@
             </div>
         </div>
     </main>
-    
+
     <footer class="footer">
         <div class="footer_contents">
             <ul class="contents_list">
