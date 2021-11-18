@@ -8,26 +8,37 @@
   justify-content: center;
 }
 
-.menu_list {
+.top_menu{
   width: 100%;
-  height: 20px;
+  }
+
+.menu_list {
+  list-style: none;
+  margin: 0px;
+  padding:0px;
+  float: right;
+  height: 30px;
+  width: 297px;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: right;
 }
 
 .menu_list > li {
-  padding: 0 10px 0 10px;
+  margin: 0 0 0 10px;
   font-size: 12px;
 }
 
+
 .header_inner {
-  width: 100%;
+  width: 1021px;
   height: 40px;
   display: inline-block;
 }
 
 .header_first {
   width: 100%;
+  margin-top:33px;
   display: flex;
   justify-content: space-between;
 }
@@ -59,11 +70,15 @@
 .header_second {
   width: 100%;
   display: flex;
+  margin-top: 19px;
   justify-content: space-between;
   font-size: 12px;
 }
 
 .second_left {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
   display: flex;
   justify-content: left;
@@ -73,23 +88,30 @@
   margin: 0 10px 0 0;
 }
 
-.second_right > li {
-  margin: 0 0 0 10px;
-}
-
 .second_right {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
   display: flex;
   justify-content: right;
 }
 
+.second_right > li {
+  margin: 0 0 0 15px;
+}
+
 .nav_sub {
   width: 1020px;
   height: 20px;
+  margin-top: 30px;
   display: flex;
 }
 
 .sub_left {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
   height: 20px;
   display: flex;
@@ -102,6 +124,9 @@
 }
 
 .sub_right {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
   height: 20px;
   display: flex;
