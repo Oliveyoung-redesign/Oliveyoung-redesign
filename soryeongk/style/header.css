@@ -1,0 +1,84 @@
+header {
+    width: 1024px;
+}
+
+header nav.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .top span {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+header hr {
+    height: 1.1rem;
+    width: 0;
+    border-right: 0;
+    margin-left: 1rem;
+}
+
+header .middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+header .logo {
+    width: 24.8rem;
+    height: 4.2rem;
+    filter: drop-shadow(0.4rem 0.4rem 0.4rem rgb(17, 8, 8, 0.25));
+}
+
+header .middle .search input{
+    width: 54rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border-color: #A6CD48;
+}
+
+header section.user-greet {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+header .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+header .bottom .event-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .bottom .event-list aside {
+    margin-right: 1.5rem;
+}
+
+header .bottom nav.user-info {
+    display: flex;
+    flex-direction: row;
+}
+header .bottom nav.user-info a {
+    margin-right: 1.5rem;
+}
+
+header .bottom nav.user-info #my-store {
+    margin-right: 1.5rem;
+}

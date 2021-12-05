@@ -1,0 +1,59 @@
+.brand {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.brand__card {
+    position: relative;
+    width: 31rem;
+    height: 44rem;
+    background-size: contain;
+}
+
+article.brand__card + article {
+    margin-left: 2rem;
+}
+
+.brand__card.--1{
+    background-image: url(../asset/brand/card1.png);
+}
+
+.brand__card.--2{
+    background-image: url(../asset/brand/card2.png);
+}
+
+.brand__card.--3{
+    background-image: url(../asset/brand/card3.png);
+}
+
+.brand__card__wrapper {
+    position: absolute;
+    top: 29rem;
+    left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+.brand__card__title {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.brand__card__desc {
+    font-size: 1.5rem;
+    line-height: 1.3;
+
+}
+
+.brand > img.arrow.left {
+    position: absolute;
+    left: -6rem;
+}
+
+.brand > img.arrow.right {
+    position: absolute;
+    right: -6rem;
+}
