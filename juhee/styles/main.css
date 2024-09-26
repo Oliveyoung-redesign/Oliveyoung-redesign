@@ -1,11 +1,446 @@
-.main{
-    width: 100%;
-    height: 779px;
-    background-image: url(/HTML-CSS/juhee/assets/images/header_bg.png);
+.main {
+  width: 100%;
+  height: 100%;
 }
 
-.second_banner{
-    width: 100%;
-    height: 600px;
-    background-image: url(/HTML-CSS/juhee/assets/images/main_bg.png);
+.main_full_banner {
+  position: relative;
+  width: 100%;
+  height: 779px;
+  margin-top: 20px;
+  background-image: url('/juhee/assets/images/header_bg.png');
+  background-position: center;
+  background-size: contain;
+}
+
+.main_left {
+  position: absolute;
+  left: 495px;
+  top: 100px;
+  width: 376px;
+  height: 211px;
+}
+
+.left_text1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #60079f;
+}
+
+.left_text2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+  margin-top: 20px;
+}
+
+.left_text3 {
+  font-size: 18px;
+  color: #777777;
+  margin-top: 5px;
+}
+
+.category_list {
+  position: absolute;
+  top: 530px;
+  left: 466px;
+  width: 990px;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top_banner {
+  position: absolute;
+  top: 729px;
+  left: 450px;
+  width: 1020px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_product {
+  margin-top: 100px;
+  margin-left: 450px;
+  width: 1020px;
+}
+
+.product_title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product_name > h2 {
+  font-size: 24px;
+  color: #777777;
+}
+
+.product_name > h3 {
+  font-size: 16px;
+  color: #333333;
+}
+
+.today_dream {
+  background-color: #a6cd48;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 25px;
+  font-size: 12px;
+  width: 69px;
+  height: 18px;
+}
+
+.sale {
+  background-color: #ee7d6c;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 25px;
+  font-size: 12px;
+  width: 35px;
+  height: 18px;
+}
+
+.product_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.product_info {
+  margin-left: 15px;
+}
+
+.product_detail {
+  display: flex;
+  flex-direction: column;
+  padding: 23px 0;
+}
+
+.product_view {
+  color: #ee7d6c;
+}
+
+.product_pre_price {
+  color: #777777;
+}
+
+.product_price {
+  color: #e02020;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product_contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second_banner_bg {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-top: 214px;
+  background-image: url('/juhee/assets/images/main_bg.png');
+}
+
+.second_banner {
+  position: absolute;
+  top: -114px;
+  left: 450px;
+  width: 1020px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event_list {
+  position: absolute;
+  top: 165px;
+  left: 450px;
+  width: 970px;
+  height: 362px;
+}
+
+.event_list > h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.event_content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.event_content > a {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  align-items: center;
+}
+
+.event_content > a > span {
+  margin-top: 11px;
+}
+
+.slide_pick {
+  margin: 15px;
+}
+
+.brand_banner_wrap {
+  width: 100%;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.brand_banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1122px;
+  height: 440px;
+  margin: 0px auto;
+}
+
+.brand_list {
+  width: 970px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand_contents {
+  position: relative;
+  align-items: center;
+}
+
+.brand_contents > h2 {
+  position: absolute;
+  width: 266px;
+  top: 291px;
+  left: 35px;
+  font-size: 24px;
+  color: white;
+}
+
+.brand_contents > h3 {
+  position: absolute;
+  width: 266px;
+  top: 349px;
+  left: 35px;
+  font-size: 15px;
+  color: white;
+}
+
+.brand_left_btn {
+  border: 0;
+  background-color: transparent;
+  width: 20px;
+  height: 38px;
+  background-image: url('/juhee/assets/icons/left_gray.png');
+}
+
+.brand_right_btn {
+  border: 0;
+  background-color: transparent;
+  width: 20px;
+  height: 38px;
+  background-image: url('/juhee/assets/icons/right_gray.png');
+}
+
+.view_ranking {
+  width: 1020px;
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
+.ranking_title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rank_contents {
+  width: 965px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rank_product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rank_product_info {
+  margin-left: 15px;
+}
+
+.rank_product_list {
+  font-size: 24px;
+  color: #aaaaaa;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.rank_product_list :hover {
+  color: #333333;
+  font-weight: bold;
+  text-shadow: transparent;
+}
+
+.main_bottom {
+  width: 950px;
+  margin: 107px auto 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.announcement {
+  width: 440px;
+  height: 170px;
+}
+
+.announcement_title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.announcement > ul {
+  font-size: 18px;
+  color: #777777;
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-inline-start: 0px;
+}
+
+.event_tag {
+  padding: 2px 11px;
+  width: 37px;
+  height: 10px;
+  border-radius: 25px;
+  background-color: #ee7d6c;
+  color: white;
+  font-size: 12px;
+}
+
+.gen_tag {
+  padding: 2px 17px;
+  width: 37px;
+  height: 10px;
+  border-radius: 25px;
+  background-color: #a6cd48;
+  color: white;
+  font-size: 12px;
+}
+
+.cs_center {
+  width: 440px;
+  height: 183px;
+}
+
+.cs_center_title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cs_center > ul {
+  width: 100%;
+  padding-inline-start: 0px;
+}
+
+.cs_center_info {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.call_name {
+  text-align: center;
+  font-size: 18px;
+  color: #777777;
+}
+
+.call_num {
+  width: 202px;
+  text-align: right;
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #a6cd48;
+}
+
+.cs_information {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cs_center_last {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cs_btn {
+  border: 0;
+  background-color: #aaaaaa;
+  color: white;
+  width: 85px;
+  height: 48px;
+  font-size: 12px;
+}
+
+.main_last {
+  margin: 30px auto 100px auto;
+  width: 1020px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom_menu {
+  width: 489px;
+  height: 30px;
+}
+
+.bottom_menu_list {
+  color: #333333;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu_list {
+  margin: 0 0 0 10px;
+  font-size: 12px;
+}
+
+.cj_family {
+  color: #777777;
 }

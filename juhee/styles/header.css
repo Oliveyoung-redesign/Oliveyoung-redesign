@@ -1,0 +1,147 @@
+/* header영역 스타일시트입니다 */
+
+.header {
+  width: 1020px;
+  height: 192px;
+  margin: 0 100px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.top_menu{
+  width: 100%;
+  }
+
+.menu_list {
+  list-style: none;
+  margin: 0px;
+  padding:0px;
+  float: right;
+  height: 30px;
+  width: 297px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.menu_list > li {
+  margin: 0 0 0 10px;
+  font-size: 12px;
+}
+
+
+.header_inner {
+  width: 1021px;
+  height: 40px;
+  display: inline-block;
+}
+
+.header_first {
+  width: 100%;
+  margin-top:33px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 248px;
+  height: 42px;
+}
+
+.search_bar {
+  position: relative;
+  width: 540px;
+  height: 40px;
+  border: 2px solid #a6cd48;
+  border-radius: 20px;
+}
+
+.search_btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+.customer_info {
+  font-size: 15px;
+  margin: 3px 0 0 0;
+}
+
+.header_second {
+  width: 100%;
+  display: flex;
+  margin-top: 19px;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.second_left {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+
+.second_left > li {
+  margin: 0 10px 0 0;
+}
+
+.second_right {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.second_right > li {
+  margin: 0 0 0 15px;
+}
+
+.nav_sub {
+  width: 1020px;
+  height: 20px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.sub_left {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  display: left;
+}
+
+.sub_left > li {
+  margin: 0 8px 0 0;
+  font-size: 16px;
+}
+
+.sub_right {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.sub_right > li {
+  margin: 0 0 0 8px;
+  font-size: 16px;
+}
+
+.member_level {
+  color: #a6cd48;
+}
+
+.mypage_variable {
+  color: #ee7d6c;
+}
